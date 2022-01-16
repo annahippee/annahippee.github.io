@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.column-container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  min-width: 650px;
+}
+.column {
+  margin: 10px;
+  margin-top: 0px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  height: calc(100vh - 40px);
+}
+.container.left {
+  margin-top: 25px;
+  margin-left: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../andrej-lisakov-3A4XZUopCJA-unsplash.jpg");
+  background-position: center;
+}
+
+.column-header {
+  font-size: 25px;
+  position: relative;
+  color: #241909;
+  background-color:white;
+  padding-left: 2px;
+  padding-right: 2px;
+  top: 15px;
+  font-weight: bold;
+}
+#big_coffee {
+  user-select: none;
+  font-size: 128px;
+  cursor: pointer;
+  filter: drop-shadow(5px 5px 5px);
+}
+
+.counter-container {
+  font-size: 30px;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.cps-container {
+  font-size: 20px;
+}
+
+#producer_container {
+  padding: 15px;
+  overflow: auto;
+  border: 3px #241909 solid;
+  background-color: white;
+  border-radius: 5px;
+  
+}
+
+.producer {
+  margin-bottom: 5px;
+  padding: 10px;
+  border: 3px solid #241909;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  color: #241909;
+}
+.producer-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.producer-title {
+  font-size: 20px;
+  color: #241909;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.producer button {
+  font-size: 15px;
+  width: 50px;
+  background-color: #E0D0C1;
+  border-radius: 5px;
+}
